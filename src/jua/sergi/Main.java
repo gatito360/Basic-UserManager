@@ -21,7 +21,7 @@ public class Main {
 
         ArrayList<String> nombres = new ArrayList<>();
 
-        File file = new File("db.yml");
+        File file = new File("users.yml");
         if (file.exists()) {
             try (Scanner fileScanner = new Scanner(file)) {
                 while (fileScanner.hasNextLine()) {
